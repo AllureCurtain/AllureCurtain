@@ -5,18 +5,31 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-245%20merged%20PRs-2563eb">
+  </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
   </a>
   <img alt="Rust" src="https://img.shields.io/badge/Rust-b7410e?logo=rust&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white">
   <img alt="Tauri" src="https://img.shields.io/badge/Tauri-24c8db?logo=tauri&logoColor=white">
-  <img alt="Location" src="https://img.shields.io/badge/Shanxi,%20China-555555">
 </p>
 
 ---
 
 ## Open source contributions
+
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **245 merged PRs**
+
+Worked across the sandbox and session layers since mid-September 2026. Main threads:
+
+- **Sandbox work leases** — claim, renewal, and reclaim semantics for sandboxed work; recovery of expired leases, and stopping queued work when a sandbox is released
+- **Session lifecycle** — carrying a session's stop into work that arrives later, and keeping a claim scoped to one session and one environment
+- **Session resources** — materializing file and repository resources for a session, and resolving the canonical in-sandbox roots on the local backend
+- **Credentials** — keyed credential envelopes, excluded positions, and the boundary that keeps another server's credential undecryptable
+- **Webhooks** — verifying the delivered signature off the wire, and a configurable auto-disable window
+- **API conformance** — pinning wire codes, beta-header resource-family contracts, and pagination rules in tests
 
 **[gitmono-dev/mega](https://github.com/gitmono-dev/mega)** · monorepo platform for Git · **44 merged PRs**
 
