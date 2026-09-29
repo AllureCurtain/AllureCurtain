@@ -1,4 +1,4 @@
-name: Profile summary cards
+name: Profile README
 
 on:
   schedule:
@@ -6,8 +6,13 @@ on:
     - cron: '17 3 * * *'
   workflow_dispatch:
 
+# 两个 job 都会往 main 推提交，串行执行避免 push 竞争
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
 jobs:
-  build:
+  cards:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,3 +28,33 @@ jobs:
           UTC_OFFSET: 8
           AUTO_PUSH: true
           BRANCH_NAME: main
+
+  readme:
+    needs: cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Refresh counts, recent activity and streak card
+        env:
+          # 可选：如果默认 GITHUB_TOKEN 拿不到 contributionCalendar，就加一个
+          # 带 read:user 权限的 PROFILE_TOKEN secret，脚本会自动优先使用它。
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile.py
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: refresh profile counts, recent activity and streak card"
+          git push origin main

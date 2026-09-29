@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-245%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-246%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -20,7 +20,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **245 merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **246 merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -44,6 +44,21 @@ Worked across the backend over roughly seven months. Main threads:
 **[libra-tools/git-internal](https://github.com/libra-tools/git-internal)** · **3 merged PRs**
 
 Git note object parsing and generation, plus abstracting the HTTP and SSH protocol layers out of mega into a reusable crate.
+
+## Recent activity
+
+<!-- BEGIN:AUTO:RECENT -->
+_Most recently merged pull requests across the projects I work in._
+
+- `2026-09-29` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/675) — feat(resources): refuse a session whose backend cannot mount its resources
+- `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/94) — feat(web): attach files to a message and render the references (R8 PR-5)
+- `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/93) — feat(api): attachments PR-4 - provider-side image projection
+- `2026-09-29` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/674) — feat(session): name a session's mounted resources in the agent's prompt
+- `2026-09-28` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/673) — feat(sandbox): resolve the canonical in-sandbox roots on the local backend
+- `2026-09-28` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/672) — feat(runtime): materialize session file and repository resources
+- `2026-09-28` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/92) — feat(api): attachments PR-2/PR-3 — the message contract, promotion, bounded cleanup, and labelled model…
+- `2026-09-28` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/671) — fix(agents): return the model effort every read was dropping
+<!-- END:AUTO:RECENT -->
 
 ## Projects
 
@@ -75,9 +90,18 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg">
+    <img alt="Contribution streak" src="./assets/streak-light.svg">
+  </picture>
+</p>
+
+<p align="center">
   <sub>
     Cards generated daily by
-    <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a>
-    and committed to this repository, so they render without depending on a third-party service.
+    <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a>,
+    and the counts, recent activity and streak card by
+    <a href="./scripts/update_profile.py">scripts/update_profile.py</a> —
+    all committed to this repository, so they render without depending on a third-party service.
   </sub>
 </p>
