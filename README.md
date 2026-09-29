@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-246%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-247%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->246<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->247<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/97) — feat(web): add the F5 notification inbox behind the top bar bell
+- `2026-09-29` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/676) — fix(environments): read the published Environment config shape
+- `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/96) — docs: refresh the post-merge status of the runtime, frontend, and attachments records
+- `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/95) — feat(web): show what a bounded compaction request pruned (R9)
 - `2026-09-29` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/675) — feat(resources): refuse a session whose backend cannot mount its resources
 - `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/94) — feat(web): attach files to a message and render the references (R8 PR-5)
 - `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/93) — feat(api): attachments PR-4 - provider-side image projection
 - `2026-09-29` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/674) — feat(session): name a session's mounted resources in the agent's prompt
-- `2026-09-28` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/673) — feat(sandbox): resolve the canonical in-sandbox roots on the local backend
-- `2026-09-28` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/672) — feat(runtime): materialize session file and repository resources
-- `2026-09-28` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/92) — feat(api): attachments PR-2/PR-3 — the message contract, promotion, bounded cleanup, and labelled model…
-- `2026-09-28` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/671) — fix(agents): return the model effort every read was dropping
 <!-- END:AUTO:RECENT -->
 
 ## Projects
