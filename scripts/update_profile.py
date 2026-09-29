@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """Regenerate the auto-managed surfaces of this profile README.
 
-The script only ever writes three things, all of them derived from the GitHub
-API, and it touches nothing else in the repository:
+GitHub READMEs cannot include other files, so everything this script produces is
+rewritten in place. Four surfaces are managed, and nothing else in the
+repository is touched:
 
-  1. ``{{pr_count:owner/repo}}`` tokens -> merged pull requests authored by
-     ``USER`` in that repository.
-  2. The block between ``<!-- BEGIN:AUTO:RECENT -->`` and
-     ``<!-- END:AUTO:RECENT -->`` -> the most recently merged pull requests.
-  3. ``assets/streak-light.svg`` and ``assets/streak-dark.svg`` -> current
-     streak, longest streak and the last twelve months of contributions.
+  1. ``<!-- BEGIN:AUTO:BADGES -->`` .. ``<!-- END:AUTO:BADGES -->``
+     The badge row, including the live merged-pull-request counts.
+  2. ``<!--pr:owner/repo-->N<!--/pr-->`` inline markers
+     The merged pull request count for that repository, anywhere in the prose.
+     The markers are HTML comments, so GitHub renders only the number.
+  3. ``<!-- BEGIN:AUTO:RECENT -->`` .. ``<!-- END:AUTO:RECENT -->``
+     The most recently merged pull requests.
+  4. ``assets/streak-light.svg`` and ``assets/streak-dark.svg``
+     Current streak, longest streak and the last twelve months of contributions.
 
-All remote data is fetched before anything is written, so a failed request
+Every remote value is fetched before anything is written, so a failed request
 leaves the working tree untouched instead of committing a half-updated page.
+Running the script twice in a row is a no-op.
 """
 
 from __future__ import annotations
@@ -21,10 +26,9 @@ import json
 import os
 import re
 import sys
-import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone
 
 USER = "AllureCurtain"
 API_ROOT = "https://api.github.com"
@@ -43,11 +47,35 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README_PATH = os.path.join(REPO_ROOT, "README.md")
 ASSETS_DIR = os.path.join(REPO_ROOT, "assets")
 
-PR_TOKEN_RE = re.compile(r"\{\{pr_count:([^}]+)\}\}")
-RECENT_RE = re.compile(
-    r"(?P<open><!-- BEGIN:AUTO:RECENT -->)(?P<body>.*?)(?P<close><!-- END:AUTO:RECENT -->)",
-    re.S,
-)
+# The count badges carry live numbers, so the row is generated rather than
+# hand-edited. Order here is the order on the page.
+BADGES = [
+    {
+        "repo": "sandbaseai/sandbase-harness",
+        "label": "sandbase--harness",
+        "alt": "Merged PRs in sandbase-harness",
+    },
+    {
+        "repo": "gitmono-dev/mega",
+        "label": "mega",
+        "alt": "Merged PRs in mega",
+    },
+]
+
+STATIC_BADGES = [
+    ("Rust", "https://img.shields.io/badge/Rust-b7410e?logo=rust&logoColor=white"),
+    ("TypeScript", "https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white"),
+    ("Tauri", "https://img.shields.io/badge/Tauri-24c8db?logo=tauri&logoColor=white"),
+]
+
+INLINE_RE = re.compile(r"<!--\s*pr:(?P<repo>[^\s>]+?)\s*-->.*?<!--\s*/pr\s*-->", re.S)
+
+
+def block_re(name: str) -> re.Pattern:
+    return re.compile(
+        rf"(?P<open><!-- BEGIN:AUTO:{name} -->)(?P<body>.*?)(?P<close><!-- END:AUTO:{name} -->)",
+        re.S,
+    )
 
 
 def log(message: str) -> None:
@@ -85,10 +113,7 @@ def graphql(query: str, variables: dict):
 def merged_pr_count(repo: str) -> int:
     result = rest(
         "/search/issues",
-        {
-            "q": f"repo:{repo} type:pr author:{USER} is:merged",
-            "per_page": 1,
-        },
+        {"q": f"repo:{repo} type:pr author:{USER} is:merged", "per_page": 1},
     )
     return int(result["total_count"])
 
@@ -106,13 +131,12 @@ def recent_merged_prs(limit: int):
     items = []
     for item in result.get("items", []):
         repo = item["repository_url"].split("/repos/", 1)[-1]
-        merged_at = item.get("closed_at") or item.get("updated_at") or ""
         items.append(
             {
                 "repo": repo,
                 "title": item.get("title", "").strip(),
                 "url": item.get("html_url", ""),
-                "date": merged_at[:10],
+                "date": (item.get("closed_at") or item.get("updated_at") or "")[:10],
             }
         )
     return items
@@ -152,19 +176,21 @@ def contribution_stats():
         raise RuntimeError("; ".join(err.get("message", "?") for err in payload["errors"]))
 
     calendar = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-    days = [
-        (day["date"], int(day["contributionCount"]))
-        for week in calendar["weeks"]
-        for day in week["contributionDays"]
-    ]
-    days.sort(key=lambda entry: entry[0])
+    days = sorted(
+        (
+            (day["date"], int(day["contributionCount"]))
+            for week in calendar["weeks"]
+            for day in week["contributionDays"]
+        ),
+        key=lambda entry: entry[0],
+    )
 
     longest = run = 0
     for _, count in days:
         run = run + 1 if count > 0 else 0
         longest = max(longest, run)
 
-    # An empty today does not break a streak that is still alive yesterday.
+    # An empty today does not break a streak that was still alive yesterday.
     index = len(days) - 1
     if index >= 0 and days[index][1] == 0:
         index -= 1
@@ -196,6 +222,26 @@ def truncate(text: str, limit: int = TITLE_LIMIT) -> str:
     if " " in cut:
         cut = cut[: cut.rfind(" ")].rstrip()
     return cut + "…"
+
+
+def render_badges(counts: dict) -> str:
+    lines = ['<p align="center">']
+    for badge in BADGES:
+        count = counts[badge["repo"]]
+        href = (
+            f'https://github.com/{badge["repo"]}'
+            f"/pulls?q=is%3Apr+author%3A{USER}+is%3Amerged"
+        )
+        lines.append(f'  <a href="{href}">')
+        lines.append(
+            f'    <img alt="{badge["alt"]}" '
+            f'src="https://img.shields.io/badge/{badge["label"]}-{count}%20merged%20PRs-2563eb">'
+        )
+        lines.append("  </a>")
+    for alt, src in STATIC_BADGES:
+        lines.append(f'  <img alt="{alt}" src="{src}">')
+    lines.append("</p>")
+    return "\n".join(lines)
 
 
 def render_recent(items) -> str:
@@ -274,31 +320,47 @@ def main() -> int:
     with open(README_PATH, encoding="utf-8") as handle:
         readme = handle.read()
 
-    counts: dict[str, int] = {}
-    for repo in sorted(set(PR_TOKEN_RE.findall(readme))):
+    badges_re = block_re("BADGES")
+    recent_re = block_re("RECENT")
+    for name, pattern in (("BADGES", badges_re), ("RECENT", recent_re)):
+        if not pattern.search(readme):
+            log(f"README is missing the AUTO:{name} markers; refusing to write.")
+            return 1
+
+    repos = {badge["repo"] for badge in BADGES}
+    repos.update(INLINE_RE.findall(readme))
+
+    counts = {}
+    for repo in sorted(repos):
         counts[repo] = merged_pr_count(repo)
         log(f"merged PRs in {repo}: {counts[repo]}")
 
     recent = recent_merged_prs(RECENT_LIMIT)
     log(f"recent merged PRs collected: {len(recent)}")
 
-    stats: dict | None = None
+    stats = None
     try:
         stats = contribution_stats()
         log(
-            "contributions: current streak {current}, longest {longest}, "
-            "total {total}".format(**stats)
+            "contributions: current streak {current}, longest {longest}, total {total}".format(
+                **stats
+            )
         )
     except Exception as error:  # noqa: BLE001 - the rest of the page still updates
         warn(f"contribution stats unavailable, keeping the existing streak card: {error}")
 
-    if not RECENT_RE.search(readme):
-        log("README is missing the AUTO:RECENT markers; refusing to write.")
-        return 1
-
-    readme = PR_TOKEN_RE.sub(lambda match: str(counts[match.group(1)]), readme)
-    readme = RECENT_RE.sub(
-        lambda match: match.group("open") + "\n" + render_recent(recent) + "\n" + match.group("close"),
+    readme = badges_re.sub(
+        lambda match: f'{match.group("open")}\n{render_badges(counts)}\n{match.group("close")}',
+        readme,
+    )
+    readme = recent_re.sub(
+        lambda match: f'{match.group("open")}\n{render_recent(recent)}\n{match.group("close")}',
+        readme,
+    )
+    readme = INLINE_RE.sub(
+        lambda match: (
+            f"<!--pr:{match.group('repo')}-->{counts[match.group('repo')]}<!--/pr-->"
+        ),
         readme,
     )
 

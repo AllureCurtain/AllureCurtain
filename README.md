@@ -4,6 +4,7 @@
   <strong>Local-first developer tools in Rust · Git infrastructure contributor</strong>
 </p>
 
+<!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-246%20merged%20PRs-2563eb">
@@ -15,12 +16,13 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white">
   <img alt="Tauri" src="https://img.shields.io/badge/Tauri-24c8db?logo=tauri&logoColor=white">
 </p>
+<!-- END:AUTO:BADGES -->
 
 ---
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **246 merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->246<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -31,7 +33,7 @@ Worked across the sandbox and session layers since mid-September 2026. Main thre
 - **Webhooks** — verifying the delivered signature off the wire, and a configurable auto-disable window
 - **API conformance** — pinning wire codes, beta-header resource-family contracts, and pagination rules in tests
 
-**[gitmono-dev/mega](https://github.com/gitmono-dev/mega)** · monorepo platform for Git · **44 merged PRs**
+**[gitmono-dev/mega](https://github.com/gitmono-dev/mega)** · monorepo platform for Git · **<!--pr:gitmono-dev/mega-->44<!--/pr--> merged PRs**
 
 Worked across the backend over roughly seven months. Main threads:
 
@@ -41,7 +43,7 @@ Worked across the backend over roughly seven months. Main threads:
 - **Build triggers** — storage layer, trigger service, and task ID propagation into the build runner
 - **Group permissions** — storage models, group/resource service, and the update-group API
 
-**[libra-tools/git-internal](https://github.com/libra-tools/git-internal)** · **3 merged PRs**
+**[libra-tools/git-internal](https://github.com/libra-tools/git-internal)** · **<!--pr:libra-tools/git-internal-->3<!--/pr--> merged PRs**
 
 Git note object parsing and generation, plus abstracting the HTTP and SSH protocol layers out of mega into a reusable crate.
 
