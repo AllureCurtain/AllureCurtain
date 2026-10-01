@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-259%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-261%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->259<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->261<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-10-01` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/694) — fix(files): answer an unknown file's content with 404
+- `2026-10-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/119) — docs: record phase-1 build results and defer the runtime split
+- `2026-10-01` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/695) — ci: run tests on Ubuntu only and label pull requests from forks
+- `2026-10-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/118) — refactor(api): split lib.rs into responsibility modules
+- `2026-10-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/117) — refactor(api): extract ProductStore into rove-product-store
+- `2026-10-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/116) — test: merge 27 integration test targets into 3 binaries
+- `2026-10-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/115) — docs: restructure documentation to the project standard
 - `2026-09-30` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/693) — fix(resources): delete the staging clone of an un-pinned repository
-- `2026-09-30` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/690) — fix(resources): strip git tracing switches from the child environment
-- `2026-09-30` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/688) — fix(resources): report the end of git output, not the middle
-- `2026-09-30` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/686) — fix(resources): clone the default branch when a repository resource has no checkout
-- `2026-09-30` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/114) — test: make the salvage, paging, TUI-launch, stale-interaction and input-arming budgets measure their…
-- `2026-09-30` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/684) — fix(cli): report a turn that failed instead of printing nothing
-- `2026-09-30` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/682) — fix(examples): make the basic example true and keep its state out of the tarball
-- `2026-09-29` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/101) — fix(web): stop a stop from re-reading the transcript, and defer its paused send
 <!-- END:AUTO:RECENT -->
 
 ## Projects
