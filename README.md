@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-272%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-298%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->272<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->298<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-03` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/713) — fix(sessions): make session deletion permanent
-- `2026-10-03` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/712) — feat(sessions): add session archive lifecycle
-- `2026-10-03` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/8) — feat(sessions): add session archive lifecycle
-- `2026-10-03` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/711) — fix(sessions): keep interrupted sessions resumable
-- `2026-10-03` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/709) — fix(sessions): project canonical statuses and terminal failures
-- `2026-10-02` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/707) — test(conformance): guard official SDK route coverage
-- `2026-10-02` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/704) — test(conformance): execute selected official documentation examples
-- `2026-10-02` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/702) — fix(agents): accept optional and cleared system prompts
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/765) — feat(session): send Anthropic prompt-cache breakpoints
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/763) — feat(session): emit paired model request spans
+- `2026-10-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/95) — feat(admin): reset a user's password and kill their sessions
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/761) — feat(session): split usage into prompt-cache buckets
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/759) — fix(session): project list\_cost as a monetary amount
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/757) — fix: preserve the recent tail across context compaction
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/755) — feat: add skill version routes per the official contract
+- `2026-10-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/751) — feat: serve the published deployment and deployment-run shapes
 <!-- END:AUTO:RECENT -->
 
 ## Projects
