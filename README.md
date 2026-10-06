@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-322%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-328%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->322<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->328<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-05` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/111) — Fail-closed pricing: the unpriced settlement kind
-- `2026-10-05` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/109) — feat: the itemized and conditional price book
-- `2026-10-05` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/822) — fix(strategy): trim stale tool outputs when a turn outgrows the context window
-- `2026-10-05` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/820) — fix(api): keep upstream error body on session.error for message-bearing provider errors
-- `2026-10-05` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/4) — feat(web): P0 graphite skin and v2 shell chrome
-- `2026-10-05` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/107) — feat: versioned settlement descriptions + charge recompute
-- `2026-10-05` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/105) — feat: the protocol-keyed usage adapter
-- `2026-10-05` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/103) — feat: the normalized usage record persisted beside each settlement
+- `2026-10-06` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/830) — test(e2e): align console smoke selectors with migrated UI
+- `2026-10-06` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/829) — fix(tests): declare CSS module types for the test-suite tsconfig
+- `2026-10-06` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/828) — refactor(console): retire the legacy stylesheet and apply review polish
+- `2026-10-06` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/827) — refactor(console): retire the legacy stylesheet and apply review polish
+- `2026-10-06` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/825) — feat(console): adopt OAC design tokens, primitives, and page grammar
+- `2026-10-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/125) — feat: monthly organization statements (P3-2b)
+- `2026-10-06` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/826) — feat(console): migrate all surfaces to OAC page grammar
+- `2026-10-06` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/10) — feat(console): port OAC page grammar components and i18n scaffold
 <!-- END:AUTO:RECENT -->
 
 ## Projects
