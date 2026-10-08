@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-344%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-362%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->344<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->362<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-07` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/869) — feat(environments): mount the official Work API data plane over the local queue
-- `2026-09-27` · [MiniMax-AI/OpenAgentCore](https://github.com/MiniMax-AI/OpenAgentCore/pull/112) — Add the operator documentation site
-- `2026-10-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/147) — feat: the programmatic read surface — usage, billing records, estimate-price, pricing catalog
-- `2026-10-07` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/17) — feat(api): publish the canonical StreamEvent graph through OpenAPI
-- `2026-10-07` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/16) — test(acceptance): evidence convention, hermetic trust store, first committed run
-- `2026-10-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/145) — feat: outbound webhooks — signed request.settled off the settlement's own transaction
-- `2026-10-07` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/15) — fix(bootstrap): keep legacy trust-store size bound off the live sqlite store
-- `2026-10-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/143) — feat: the Anthropic Messages surface
+- `2026-10-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/165) — Add the demo seed command
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/897) — feat(console): manage session resources and artifacts after creation
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/895) — feat(console): steer a turn in flight from the session composer
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/898) — feat(sandbox): mount github\_repository session resources on docker
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/892) — feat(console): set a budget and declare an initial outcome at session creation
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/890) — feat(sandbox): mount session file resources on the docker backend
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/888) — feat(console): run the MCP OAuth credential validation probe from the vault page
+- `2026-10-08` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/882) — feat: let the Console agent editor declare custom tools
 <!-- END:AUTO:RECENT -->
 
 ## Projects
