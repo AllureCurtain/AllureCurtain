@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-385%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-388%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->385<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->388<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-10-10` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/947) — feat(sessions): optional external authorization-freshness hook for gated tool calls
+- `2026-10-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/186) — Cap dev debuginfo at line tables so the server rlib links on Windows
+- `2026-10-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/184) — Settle streams ended at \[DONE\] as usage, not client\_cancelled
+- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/944) — ci: attach a prebuilt npm tarball to each GitHub release
+- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/943) — docs: record merged fixes in the changelog, cover the pnpm allowBuilds step
 - `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/942) — fix(usage): record the canonical usage pair for auxiliary model requests
 - `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/941) — fix(sandbox): retry the docker availability probe, skip quickstart without a daemon
 - `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/940) — test(pi): give session-continuity launcher budgets that survive Windows load
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/939) — test(vault): use a distinctive refresh token in the leak assertion
-- `2026-10-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/175) — Document the deployment runbook
-- `2026-10-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/173) — Meter external services against the price book
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/934) — feat(console): create self-hosted worker keys from the environment page
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/937) — fix(console): stop presenting retired sandbox defaults in the UI
 <!-- END:AUTO:RECENT -->
 
 ## Projects
