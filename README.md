@@ -53,13 +53,13 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 _Most recently merged pull requests across the projects I work in._
 
 - `2026-10-10` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/947) — feat(sessions): optional external authorization-freshness hook for gated tool calls
-- `2026-10-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/186) — Cap dev debuginfo at line tables so the server rlib links on Windows
-- `2026-10-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/184) — Settle streams ended at \[DONE\] as usage, not client\_cancelled
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/944) — ci: attach a prebuilt npm tarball to each GitHub release
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/943) — docs: record merged fixes in the changelog, cover the pnpm allowBuilds step
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/942) — fix(usage): record the canonical usage pair for auxiliary model requests
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/941) — fix(sandbox): retry the docker availability probe, skip quickstart without a daemon
-- `2026-10-09` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/940) — test(pi): give session-continuity launcher budgets that survive Windows load
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/29) — feat: add mount/unmount transitions to header menus and toolbars
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/28) — refactor: normalize typography to a 4-tier scale
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/27) — feat: replace window.confirm with ConfirmDialog for destructive actions
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/26) — feat: elevate EmptyState icon and add loading skeleton
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/25) — feat: sliding indicator for content filters and settings rail
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/24) — feat: retune motion springs to Apple's critically-damped model
+- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/23) — fix: keep stores and stats consistent with backend behavior
 <!-- END:AUTO:RECENT -->
 
 ## Projects
