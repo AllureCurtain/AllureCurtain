@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-388%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-392%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->388<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->392<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-10` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/947) — feat(sessions): optional external authorization-freshness hook for gated tool calls
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/29) — feat: add mount/unmount transitions to header menus and toolbars
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/28) — refactor: normalize typography to a 4-tier scale
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/27) — feat: replace window.confirm with ConfirmDialog for destructive actions
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/26) — feat: elevate EmptyState icon and add loading skeleton
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/25) — feat: sliding indicator for content filters and settings rail
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/24) — feat: retune motion springs to Apple's critically-damped model
-- `2026-10-11` · [AllureCurtain/klip](https://github.com/AllureCurtain/klip/pull/23) — fix: keep stores and stats consistent with backend behavior
+- `2026-10-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/212) — Statement PDF export
+- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/961) — feat(environments): install declared config.packages at provisioning
+- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/963) — fix(resources): refuse file resources on self-hosted environments
+- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/962) — feat(cli): managed-agents apply for declarative manifests
+- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/960) — docs: refresh CMA coverage numbers and record confirmed contract gaps
+- `2026-10-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/211) — Signed price catalog snapshots
+- `2026-10-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/210) — feat: per-key TPM rate limits on settled usage
+- `2026-10-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/208) — feat: delete accounts by pseudonymization
 <!-- END:AUTO:RECENT -->
 
 ## Projects
