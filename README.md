@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/212) — Statement PDF export
-- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/961) — feat(environments): install declared config.packages at provisioning
-- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/963) — fix(resources): refuse file resources on self-hosted environments
-- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/962) — feat(cli): managed-agents apply for declarative manifests
-- `2026-10-12` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/960) — docs: refresh CMA coverage numbers and record confirmed contract gaps
-- `2026-10-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/211) — Signed price catalog snapshots
-- `2026-10-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/210) — feat: per-key TPM rate limits on settled usage
-- `2026-10-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/208) — feat: delete accounts by pseudonymization
+- `2026-10-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/227) — refactor: extract third-party clients into oxsum-integrations
+- `2026-10-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/228) — Next phase: verifiability deepens before the surface widens
+- `2026-10-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/225) — fix: install mold in the Docker builder
+- `2026-10-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/223) — ci: deploy the release image to zhao-cloud on demand
+- `2026-10-13` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/26) — feat(console): multi-agent threads surface — roster editor, thread list, scoped streams (#3.7)
+- `2026-10-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/218) — ci: quick wins from the Rust ecosystem CI survey
+- `2026-10-12` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/25) — docs(contracts): threads surface delivered — sync contract and reference docs
+- `2026-10-12` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/24) — feat(sessions): per-thread budget\_reached park and resume
 <!-- END:AUTO:RECENT -->
 
 ## Projects
