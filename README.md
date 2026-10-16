@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/255) — test(jobs): enqueue due runs on the database clock
+- `2026-10-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/254) — feat(web): adopt Cult UI and cover every API surface (refs #234)
+- `2026-10-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/253) — docs: nextest as default runner, workspace suite once per PR, jobs cap
 - `2026-10-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/250) — feat: React dashboard at parity at /app (issue #234)
 - `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/252) — test: the mid-turn retry waits on the record it replays
 - `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/248) — feat: external witness anchoring for the Merkle log
 - `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/243) — test: doubleentry postgres suite honors DATABASE\_URL over testcontainers
 - `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/247) — feat: budget-consumption visibility — limit/consumed/pct + threshold events
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/245) — fix: missing usage settles degraded — input-only, marked, reconciled
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/251) — fix: stub integrations/testkit manifests in the Dockerfile dep layer
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/246) — feat: terminal status and failure reason on billing records
 <!-- END:AUTO:RECENT -->
 
 ## Projects
