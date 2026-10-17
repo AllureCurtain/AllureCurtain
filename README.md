@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/255) — test(jobs): enqueue due runs on the database clock
-- `2026-10-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/254) — feat(web): adopt Cult UI and cover every API surface (refs #234)
-- `2026-10-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/253) — docs: nextest as default runner, workspace suite once per PR, jobs cap
-- `2026-10-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/250) — feat: React dashboard at parity at /app (issue #234)
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/252) — test: the mid-turn retry waits on the record it replays
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/248) — feat: external witness anchoring for the Merkle log
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/243) — test: doubleentry postgres suite honors DATABASE\_URL over testcontainers
-- `2026-10-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/247) — feat: budget-consumption visibility — limit/consumed/pct + threshold events
+- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/273) — test: self-healing test scratch cleanup (issue #271)
+- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/275) — feat: x402-shaped deposit rail — verifier seam, Ed25519 stand-in (issue #264)
+- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/274) — feat: end-user signed usage reports (issue #261)
+- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/272) — feat: serve the deployment as a tlog-witness (issue #260)
+- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/270) — feat: verify third-party witness cosignatures (issue #259)
+- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/269) — feat: multi-currency display — organizations render credits as fiat (issue #257)
+- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/268) — chore(web): regenerate schema.d.ts for dunning and anomaly fields
+- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/267) — feat(core,server): anomaly scoring beyond settlement kind (issue #263)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
