@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-10-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/294) — feat: model aliases — one public name resolving to a channel's upstream model (issue #286)
+- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/293) — test: scope the bill-drift anomaly count to the test's own channel (issue #283)
+- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/292) — feat: the Airwallex deposit rail — hosted-checkout top-ups like Stripe (issue #285)
+- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/291) — feat: browser-side verification via oxsum\_verify wasm
+- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/290) — feat: upstream provider bill reconciliation
+- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/289) — feat: the x402 rail delegates to a facilitator sidecar
+- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/288) — feat: job leader election via Postgres advisory lock
 - `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/280) — feat: retire the Topcoat dashboard; crates/web becomes the /verify shell (issue #256)
-- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/279) — ci: shard test-integration — build once, run against the archive
-- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/278) — test: load .env in the postgres suite, sweep testcontainers residue
-- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/273) — test: self-healing test scratch cleanup (issue #271)
-- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/275) — feat: x402-shaped deposit rail — verifier seam, Ed25519 stand-in (issue #264)
-- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/274) — feat: end-user signed usage reports (issue #261)
-- `2026-10-17` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/272) — feat: serve the deployment as a tlog-witness (issue #260)
-- `2026-10-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/270) — feat: verify third-party witness cosignatures (issue #259)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
