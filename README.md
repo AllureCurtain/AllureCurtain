@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-20` · [sandbase-lab/awesome-deepseek-v4.1-flash](https://github.com/sandbase-lab/awesome-deepseek-v4.1-flash/pull/1) — fix(scripts): support empty reading lists and older ffmpeg encoders
-- `2026-10-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/294) — feat: model aliases — one public name resolving to a channel's upstream model (issue #286)
-- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/293) — test: scope the bill-drift anomaly count to the test's own channel (issue #283)
-- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/292) — feat: the Airwallex deposit rail — hosted-checkout top-ups like Stripe (issue #285)
-- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/291) — feat: browser-side verification via oxsum\_verify wasm
-- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/290) — feat: upstream provider bill reconciliation
-- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/289) — feat: the x402 rail delegates to a facilitator sidecar
-- `2026-10-18` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/288) — feat: job leader election via Postgres advisory lock
+- `2026-10-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/76) — feat: the admin organizations page (issue #57)
+- `2026-10-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/85) — Expect the invitations table in the migration assertion
+- `2026-10-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/88) — Raise the recursion limit for the wasm release build
+- `2026-10-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/89) — fix(core): tolerate the schema-creation race on first wallet open
+- `2026-10-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/83) — fix: Deserialize import in admin browser fetch
+- `2026-10-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/86) — Fix the adjust form's submit handler on wasm (issue #60 follow-up)
+- `2026-10-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/97) — feat: browser-local tree-head archive with automatic consistency verification (issue #92)
+- `2026-10-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/80) — feat: team organizations and switching the acting organization (issue #58)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
