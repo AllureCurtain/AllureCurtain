@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-22` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/327) — chore: the backup and restore drill (issue #326)
-- `2026-10-22` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/325) — docs: the proof surface map (issue #324)
-- `2026-10-22` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/323) — test: the statement lifecycle end to end (issue #322)
-- `2026-10-22` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/321) — feat: the Hyperswitch deposit rail (issue #319)
-- `2026-10-21` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/318) — docs: the payment layer is the full switch (issue #317)
-- `2026-10-21` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/316) — feat: mail the bill link at mint time (issue #315)
-- `2026-10-21` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/314) — ci: build the frontend stage before merge (issue #309)
-- `2026-10-21` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/313) — docs: how a customer verifies a bill (issue #312)
+- `2026-10-23` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/355) — feat: the admin deposits view (issue #354)
+- `2026-10-23` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/39) — feat(sessions): run advisor consultations on a platform thread
+- `2026-10-23` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/38) — feat(sessions): dispatch inline subagents from the current topology
+- `2026-10-23` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/353) — feat: credit notes (issue #352)
+- `2026-10-22` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/37) — feat(sessions): record thread kind and workflow run id
+- `2026-10-22` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/36) — feat(sessions): dispatch subagents from the current multiagent topology
+- `2026-10-22` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/35) — feat(agents): accept the multiagent\_20261001 configuration
+- `2026-10-22` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/351) — feat: the margin page shows the provider bill beside the estimate (issue #350)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
