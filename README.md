@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-23` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/355) — feat: the admin deposits view (issue #354)
-- `2026-10-23` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/39) — feat(sessions): run advisor consultations on a platform thread
-- `2026-10-23` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/38) — feat(sessions): dispatch inline subagents from the current topology
-- `2026-10-23` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/353) — feat: credit notes (issue #352)
-- `2026-10-22` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/37) — feat(sessions): record thread kind and workflow run id
-- `2026-10-22` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/36) — feat(sessions): dispatch subagents from the current multiagent topology
-- `2026-10-22` · [AllureCurtain/sandbase-harness](https://github.com/AllureCurtain/sandbase-harness/pull/35) — feat(agents): accept the multiagent\_20261001 configuration
-- `2026-10-22` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/351) — feat: the margin page shows the provider bill beside the estimate (issue #350)
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/382) — fix: deploy SSH gets keepalive flags
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/380) — feat: dashboard visual refresh — cobalt palette, dark rail, grouped nav
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/378) — docs+scripts: the Airwallex rail reached sandbox-verified (issue #377)
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/376) — fix: the Airwallex login also needs Content-Length and a status check (issue #374)
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/375) — fix: the Airwallex rail pins TLS 1.2 for its endpoint (issue #374)
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/373) — docs+scripts: the x402 rail's first live run, recorded as a recipe (issue #372)
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/371) — docs: the local pre-push gate defers the full suite to CI (issue #370)
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/369) — feat: an Anthropic UpstreamBillProvider — the second impl the seam was cut for
 <!-- END:AUTO:RECENT -->
 
 ## Projects
