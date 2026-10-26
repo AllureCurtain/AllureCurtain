@@ -52,6 +52,7 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/384) — chore: unpin the Rust toolchain to stable
 - `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/382) — fix: deploy SSH gets keepalive flags
 - `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/380) — feat: dashboard visual refresh — cobalt palette, dark rail, grouped nav
 - `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/378) — docs+scripts: the Airwallex rail reached sandbox-verified (issue #377)
@@ -59,7 +60,6 @@ _Most recently merged pull requests across the projects I work in._
 - `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/375) — fix: the Airwallex rail pins TLS 1.2 for its endpoint (issue #374)
 - `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/373) — docs+scripts: the x402 rail's first live run, recorded as a recipe (issue #372)
 - `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/371) — docs: the local pre-push gate defers the full suite to CI (issue #370)
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/369) — feat: an Anthropic UpstreamBillProvider — the second impl the seam was cut for
 <!-- END:AUTO:RECENT -->
 
 ## Projects
