@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/384) — chore: unpin the Rust toolchain to stable
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/382) — fix: deploy SSH gets keepalive flags
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/380) — feat: dashboard visual refresh — cobalt palette, dark rail, grouped nav
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/378) — docs+scripts: the Airwallex rail reached sandbox-verified (issue #377)
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/376) — fix: the Airwallex login also needs Content-Length and a status check (issue #374)
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/375) — fix: the Airwallex rail pins TLS 1.2 for its endpoint (issue #374)
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/373) — docs+scripts: the x402 rail's first live run, recorded as a recipe (issue #372)
-- `2026-10-25` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/371) — docs: the local pre-push gate defers the full suite to CI (issue #370)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/434) — refactor: split the three ui/api/auth monoliths into per-domain modules (issue #428)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/432) — fix: IconButton touch target + prose em-dash cleanup (issue #429)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/433) — refactor: hooks.ts consumes the generated schema types (issue #426)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/431) — refactor: collapse the three duplicated topup rails into AmountRail (issue #427)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/430) — fix: billing socket reconnects with bounded backoff (issue #425)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/423) — feat: per-page polish — Usage chart, workflow forms, KPI anatomy, IA (issue #417)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/422) — feat: admin console — 16 sections grouped into a side-nav (issue #416)
+- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/421) — feat: TableShell — skeleton loading, sticky header, density, alignment (issue #414)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
