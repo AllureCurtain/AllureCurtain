@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/434) — refactor: split the three ui/api/auth monoliths into per-domain modules (issue #428)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/432) — fix: IconButton touch target + prose em-dash cleanup (issue #429)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/433) — refactor: hooks.ts consumes the generated schema types (issue #426)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/431) — refactor: collapse the three duplicated topup rails into AmountRail (issue #427)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/430) — fix: billing socket reconnects with bounded backoff (issue #425)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/423) — feat: per-page polish — Usage chart, workflow forms, KPI anatomy, IA (issue #417)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/422) — feat: admin console — 16 sections grouped into a side-nav (issue #416)
-- `2026-10-30` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/421) — feat: TableShell — skeleton loading, sticky header, density, alignment (issue #414)
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/480) — feat: the statement proof bundle (issue #479)
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/478) — docs: the live demo's witness and the verify SDK in the README
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/477) — docs: record the demo's witness sidecar topology (issue #476)
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/475) — feat: \<verify-bill\> — the verifiable-bill check as an embeddable element
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/473) — docs: OXSUM Billing Transparency Log v1 spec (issue #472)
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/471) — docs: point the README at the live demo (issue #470)
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/469) — feat: make oxsum-verify publishable + scaffold verify-oxsum-bill (issue #468)
+- `2026-10-31` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/467) — feat: hero-ize the Overview page (issue #466)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
