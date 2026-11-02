@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-414%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-415%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->414<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->415<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-11-02` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/996) — docs(cma): restore multiagent scope and establish the parity baseline
+- `2026-11-02` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/533) — feat: A/B experiments (issue #509)
+- `2026-11-02` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/526) — feat: the request-analytics surface (issue #505)
 - `2026-11-01` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/525) — feat: fold observed upstream health into the route pick (issue #499)
 - `2026-11-01` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/524) — feat: console i18n — extract dashboard strings, ship zh-CN (issue #507)
 - `2026-11-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/51) — fix(api): widen the transcript event window for delegation runs
 - `2026-11-01` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/992) — docs(api): sync api.md to the bounds and rules shipped since the last pass
 - `2026-11-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/50) — fix(web): match the manual-path placeholder to the platform
-- `2026-11-01` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/994) — feat(scripts): add a crawl/diff tool for the official CMA docs snapshot
-- `2026-11-01` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/49) — fix(web): offer the provider-credentials grant inside the chat pane
-- `2026-11-01` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/991) — feat(deployments): enforce the published 1,000-deployment organization cap
 <!-- END:AUTO:RECENT -->
 
 ## Projects
