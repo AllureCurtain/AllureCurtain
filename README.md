@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-421%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-424%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->421<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->424<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/546) — feat: manage request groups and key access in the console
-- `2026-11-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/539) — fix: preserve hidden constraints when editing key limits
-- `2026-11-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/537) — fix: collect chat price output ceilings in the console
-- `2026-11-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/544) — feat: manage model fallback chains in admin
-- `2026-11-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/542) — Serialize billing record dates as ISO calendar dates
-- `2026-11-03` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/540) — Fix Chinese locale selection
-- `2026-11-02` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1008) — feat(settings): add explicit model connection test
-- `2026-11-02` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1006) — test(console): typecheck all Console test files
+- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/623) — docs: adopt the self-hosted release contract
+- `2026-11-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1014) — fix(minimax): preserve private reasoning through tool continuation
+- `2026-11-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1013) — fix(web-search): bound Tavily response consumption
+- `2026-11-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1012) — fix(dsh): resolve the MCP entry from the active profile
+- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/590) — fix: the admin console's form rows wrap on phones
+- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/588) — fix: the top-up rails fit a phone viewport
+- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/587) — fix: the Overview hero wraps its stats on phones
+- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/584) — fix: the committed dashboard placeholder explains the missing build
 <!-- END:AUTO:RECENT -->
 
 ## Projects
