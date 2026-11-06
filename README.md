@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/623) — docs: adopt the self-hosted release contract
-- `2026-11-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1014) — fix(minimax): preserve private reasoning through tool continuation
-- `2026-11-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1013) — fix(web-search): bound Tavily response consumption
-- `2026-11-04` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1012) — fix(dsh): resolve the MCP entry from the active profile
-- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/590) — fix: the admin console's form rows wrap on phones
-- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/588) — fix: the top-up rails fit a phone viewport
-- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/587) — fix: the Overview hero wraps its stats on phones
-- `2026-11-04` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/584) — fix: the committed dashboard placeholder explains the missing build
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/666) — feat: plan fee journals and revenue allocation (T20)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/665) — feat: corrections, partial refunds and disputes (T17)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/664) — feat: promotional lots and prepaid bundles (T18)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/663) — feat: customer checkout and purchased funding (issue #607)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/662) — Cover every serving and metering path (T13)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/661) — Customer entitlement and paid plan lifecycle (T19)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/659) — Payment orders and durable fulfillment (T15)
+- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/660) — feat: coordinated customer admission and settlement
 <!-- END:AUTO:RECENT -->
 
 ## Projects
