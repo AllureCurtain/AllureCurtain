@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/696) — docs: reconcile release closeout with executed evidence
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/694) — fix: close customer and staff browser journey defects
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/693) — fix: fulfill paid orders without waiting for daily reconciliation
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/691) — fix: preserve valid staff sessions in the business console
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/689) — test: measure D09 streaming capacity and accounting conservation
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/687) — ci: require full candidate evidence and smoke the exact image
-- `2026-11-07` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/686) — fix: restore archived integration and migration checks
-- `2026-11-06` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/683) — chore: ignore macOS .DS\_Store files
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/816) — build: publish the verified original SDK tarball
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/815) — fix: charge settled plan overflow only once
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/813) — build: deploy candidate digests and verify runtime identity
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/812) — fix: conserve plan refund cash and recover source allocations
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/808) — fix(api): align security declarations with route authority
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/806) — build: promote verified candidate image bytes without rebuilding
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/807) — fix: align integrated migrations and historical recovery fixtures
+- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/804) — docs: reconcile current checkout authority descriptions
 <!-- END:AUTO:RECENT -->
 
 ## Projects
