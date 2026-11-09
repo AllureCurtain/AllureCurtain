@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/816) — build: publish the verified original SDK tarball
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/815) — fix: charge settled plan overflow only once
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/813) — build: deploy candidate digests and verify runtime identity
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/812) — fix: conserve plan refund cash and recover source allocations
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/808) — fix(api): align security declarations with route authority
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/806) — build: promote verified candidate image bytes without rebuilding
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/807) — fix: align integrated migrations and historical recovery fixtures
-- `2026-11-08` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/804) — docs: reconcile current checkout authority descriptions
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/907) — fix: pin pending-refund chargeback legs after a44827ba source-skip widening
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/906) — fix: unbreak two post-merge shard test failures
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/905) — test: include non-plan chargeback corrections in schema inventory
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/903) — fix: compensate proven legacy non-plan chargebacks with exact sources
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/904) — fix: bound gateway evidence and commit complete policy reasons
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/902) — fix: serialize team deletion before admission roster locks
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/900) — feat: issue bounded application customer keys
+- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/897) — fix: stop new quota draws at cancelled plan boundaries
 <!-- END:AUTO:RECENT -->
 
 ## Projects
