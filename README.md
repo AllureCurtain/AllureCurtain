@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/907) — fix: pin pending-refund chargeback legs after a44827ba source-skip widening
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/906) — fix: unbreak two post-merge shard test failures
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/905) — test: include non-plan chargeback corrections in schema inventory
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/903) — fix: compensate proven legacy non-plan chargebacks with exact sources
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/904) — fix: bound gateway evidence and commit complete policy reasons
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/902) — fix: serialize team deletion before admission roster locks
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/900) — feat: issue bounded application customer keys
-- `2026-11-09` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/897) — fix: stop new quota draws at cancelled plan boundaries
+- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/974) — test: record commercial browser purchase and cancellation evidence
+- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/967) — fix: refuse unrouteable manual receipt provider refunds
+- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/968) — fix: pin jsonwebtoken back to 9 and stop dependabot re-proposing the major
+- `2026-11-10` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/72) — refactor: move models/core/protocol/tools-text/tests under crates/
+- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/964) — fix: preserve exact plan price and quota input
+- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/965) — test: scope wholesale-leak assertions away from timestamp digits
+- `2026-11-10` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/71) — refactor: rename rove-runtime to rove-engine, remove shim layer
+- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/961) — test: retain integrated first-call and offline browser proof
 <!-- END:AUTO:RECENT -->
 
 ## Projects
