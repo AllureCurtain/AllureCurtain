@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/974) — test: record commercial browser purchase and cancellation evidence
-- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/967) — fix: refuse unrouteable manual receipt provider refunds
-- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/968) — fix: pin jsonwebtoken back to 9 and stop dependabot re-proposing the major
-- `2026-11-10` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/72) — refactor: move models/core/protocol/tools-text/tests under crates/
-- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/964) — fix: preserve exact plan price and quota input
-- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/965) — test: scope wholesale-leak assertions away from timestamp digits
-- `2026-11-10` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/71) — refactor: rename rove-runtime to rove-engine, remove shim layer
-- `2026-11-10` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/961) — test: retain integrated first-call and offline browser proof
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1050) — docs: name direct Stripe the active primary rail; defer Hyperswitch
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1049) — feat: recover reversed Stripe deposits through the refund rail
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1046) — docs: record Stripe test-mode N15 capture-to-credit evidence
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1045) — chore: stop tracking Python bytecode caches
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1044) — docs: record the two N15-surfaced Airwallex defect fixes
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1043) — feat: Airwallex deposit-refund recovery
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1042) — fix: scope the Airwallex TLS-1.2 cap to the destination
+- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1039) — test: real Airwallex cloud-demo order-to-intent evidence (N15)
 <!-- END:AUTO:RECENT -->
 
 ## Projects
