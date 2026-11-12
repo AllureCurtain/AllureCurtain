@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-424%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-425%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->424<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->425<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1050) — docs: name direct Stripe the active primary rail; defer Hyperswitch
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1049) — feat: recover reversed Stripe deposits through the refund rail
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1046) — docs: record Stripe test-mode N15 capture-to-credit evidence
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1045) — chore: stop tracking Python bytecode caches
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1044) — docs: record the two N15-surfaced Airwallex defect fixes
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1043) — feat: Airwallex deposit-refund recovery
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1042) — fix: scope the Airwallex TLS-1.2 cap to the destination
-- `2026-11-11` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1039) — test: real Airwallex cloud-demo order-to-intent evidence (N15)
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1105) — chore(web): drop the unused radix-ui and sonner deps
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1104) — test: isolate each tasks world's model name from the shared suite DB
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1101) — docs: name the missing ApiError codes and refusal details
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1103) — refactor(core): split the wallet god file into domain leaves
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1102) — docs: sync product/api/architecture with the merged audit behaviors
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1100) — feat(web): code-split the dashboard behind React.lazy route boundaries
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1099) — feat(core): sweep x402 credits that failed after the chain transfer
+- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1098) — fix(core): anchor a usage day inside one ledger transaction
 <!-- END:AUTO:RECENT -->
 
 ## Projects
