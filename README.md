@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1105) — chore(web): drop the unused radix-ui and sonner deps
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1104) — test: isolate each tasks world's model name from the shared suite DB
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1101) — docs: name the missing ApiError codes and refusal details
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1103) — refactor(core): split the wallet god file into domain leaves
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1102) — docs: sync product/api/architecture with the merged audit behaviors
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1100) — feat(web): code-split the dashboard behind React.lazy route boundaries
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1099) — feat(core): sweep x402 credits that failed after the chain transfer
-- `2026-11-12` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1098) — fix(core): anchor a usage day inside one ledger transaction
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1126) — fix(solana): harden the rail — global signature uniqueness, mint-aware pricing, reference scan, confirm expiry
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1123) — docs(decisions): record the public-devnet rehearsal of the Solana rail
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1122) — test(integrations,examples): exercise the Solana rail's SPL path on a real chain
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1120) — ci(test-extras): resolve the conformance binary through the archive metadata
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1119) — docs(examples): the Solana top-up rail verified end to end on a real chain
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1118) — feat: Solana deposit rail — crypto top-up via on-chain verification (#1117 Option A)
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1116) — refactor(server): move the cache key's digest members into a pipeline leaf
+- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1115) — docs: point the deferred Stripe note at its same-day recovery
 <!-- END:AUTO:RECENT -->
 
 ## Projects
