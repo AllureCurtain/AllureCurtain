@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1126) — fix(solana): harden the rail — global signature uniqueness, mint-aware pricing, reference scan, confirm expiry
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1123) — docs(decisions): record the public-devnet rehearsal of the Solana rail
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1122) — test(integrations,examples): exercise the Solana rail's SPL path on a real chain
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1120) — ci(test-extras): resolve the conformance binary through the archive metadata
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1119) — docs(examples): the Solana top-up rail verified end to end on a real chain
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1118) — feat: Solana deposit rail — crypto top-up via on-chain verification (#1117 Option A)
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1116) — refactor(server): move the cache key's digest members into a pipeline leaf
-- `2026-11-13` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1115) — docs: point the deferred Stripe note at its same-day recovery
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/91) — docs: mark F.5 complete (PR #90)
+- `2026-11-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1210) — fix(solana): refund payout source check rejects Squads vault SOL payouts; rescue-pass fairness
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/90) — feat(tui): drain queued successor on launch (F.5)
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/89) — docs(decisions): stranded-queue auto-recovery stays off
+- `2026-11-14` · [sandbase-lab/awesome-gpt-image-2-6](https://github.com/sandbase-lab/awesome-gpt-image-2-6/pull/2) — fix(sync): schedule a daily image prompt fallback
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/88) — feat(web): plan-approval bar above the composer (issue #30)
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/87) — feat(engine,api): plan-approval gate behind a provider (issue #30)
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/86) — feat(bench): real-provider capability mode for V2 suites
 <!-- END:AUTO:RECENT -->
 
 ## Projects
