@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/91) — docs: mark F.5 complete (PR #90)
-- `2026-11-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1210) — fix(solana): refund payout source check rejects Squads vault SOL payouts; rescue-pass fairness
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/90) — feat(tui): drain queued successor on launch (F.5)
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/89) — docs(decisions): stranded-queue auto-recovery stays off
-- `2026-11-14` · [sandbase-lab/awesome-gpt-image-2-6](https://github.com/sandbase-lab/awesome-gpt-image-2-6/pull/2) — fix(sync): schedule a daily image prompt fallback
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/88) — feat(web): plan-approval bar above the composer (issue #30)
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/87) — feat(engine,api): plan-approval gate behind a provider (issue #30)
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/86) — feat(bench): real-provider capability mode for V2 suites
+- `2026-11-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1221) — docs(operator-launch): re-freeze N18 candidate at 8dface36 and record J-check re-run
+- `2026-11-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1220) — docs: refresh the open-issue index and the operator-launch checkpoint
+- `2026-11-15` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/104) — docs(desktop): mark plan status done — in-house scope complete
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/103) — docs(desktop): tray+notifications .app verification PASS
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/102) — feat(desktop): native notifications on run lifecycle events
+- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/101) — feat(desktop): system tray with user-selectable close action
+- `2026-11-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1219) — ci: run the heavy tier before merge on PRs that touch the Rust crates, migrations or CI
+- `2026-11-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1218) — test: wait for off-path settlements against a wall-clock deadline
 <!-- END:AUTO:RECENT -->
 
 ## Projects
