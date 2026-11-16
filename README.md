@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1228) — build: bump curve25519-dalek from 4.1.3 to 5.0.0
+- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1229) — build: bump the cargo-minor-patch group with 3 updates
+- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1230) — build: bump i18next to 27 and react-i18next to 18
+- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1231) — build: bump the npm-minor-patch group in /web with 3 updates
 - `2026-11-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1221) — docs(operator-launch): re-freeze N18 candidate at 8dface36 and record J-check re-run
 - `2026-11-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1220) — docs: refresh the open-issue index and the operator-launch checkpoint
 - `2026-11-15` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/104) — docs(desktop): mark plan status done — in-house scope complete
 - `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/103) — docs(desktop): tray+notifications .app verification PASS
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/102) — feat(desktop): native notifications on run lifecycle events
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/101) — feat(desktop): system tray with user-selectable close action
-- `2026-11-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1219) — ci: run the heavy tier before merge on PRs that touch the Rust crates, migrations or CI
-- `2026-11-14` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1218) — test: wait for off-path settlements against a wall-clock deadline
 <!-- END:AUTO:RECENT -->
 
 ## Projects
