@@ -7,7 +7,7 @@
 <!-- BEGIN:AUTO:BADGES -->
 <p align="center">
   <a href="https://github.com/sandbaseai/sandbase-harness/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
-    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-425%20merged%20PRs-2563eb">
+    <img alt="Merged PRs in sandbase-harness" src="https://img.shields.io/badge/sandbase--harness-431%20merged%20PRs-2563eb">
   </a>
   <a href="https://github.com/gitmono-dev/mega/pulls?q=is%3Apr+author%3AAllureCurtain+is%3Amerged">
     <img alt="Merged PRs in mega" src="https://img.shields.io/badge/mega-44%20merged%20PRs-2563eb">
@@ -22,7 +22,7 @@
 
 ## Open source contributions
 
-**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->425<!--/pr--> merged PRs**
+**[sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness)** · local-first, self-hosted AI agent runtime · **<!--pr:sandbaseai/sandbase-harness-->431<!--/pr--> merged PRs**
 
 Worked across the sandbox and session layers since mid-September 2026. Main threads:
 
@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
+- `2026-11-18` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1044) — feat(cma): close the bounded alignment tracks (8 tasks)
+- `2026-11-18` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1043) — feat(self-hosted): claim sessions, not tool calls, on environment work
+- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1042) — feat(self-hosted): worker-executed builtin agent\_toolset calls via user.tool\_result
+- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1041) — feat(agents): accept coordinator multiagent blocks and normalize to delegations
+- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1040) — docs(contracts): record self-hosted CMA deltas and over-delivery surfaces
+- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1039) — docs(contracts): refresh CMA baseline against the 2026-11-17 official docs
 - `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1228) — build: bump curve25519-dalek from 4.1.3 to 5.0.0
 - `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1229) — build: bump the cargo-minor-patch group with 3 updates
-- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1230) — build: bump i18next to 27 and react-i18next to 18
-- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1231) — build: bump the npm-minor-patch group in /web with 3 updates
-- `2026-11-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1221) — docs(operator-launch): re-freeze N18 candidate at 8dface36 and record J-check re-run
-- `2026-11-15` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1220) — docs: refresh the open-issue index and the operator-launch checkpoint
-- `2026-11-15` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/104) — docs(desktop): mark plan status done — in-house scope complete
-- `2026-11-14` · [AllureCurtain/rove](https://github.com/AllureCurtain/rove/pull/103) — docs(desktop): tray+notifications .app verification PASS
 <!-- END:AUTO:RECENT -->
 
 ## Projects
