@@ -52,14 +52,14 @@ Git note object parsing and generation, plus abstracting the HTTP and SSH protoc
 <!-- BEGIN:AUTO:RECENT -->
 _Most recently merged pull requests across the projects I work in._
 
-- `2026-11-18` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1044) — feat(cma): close the bounded alignment tracks (8 tasks)
-- `2026-11-18` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1043) — feat(self-hosted): claim sessions, not tool calls, on environment work
-- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1042) — feat(self-hosted): worker-executed builtin agent\_toolset calls via user.tool\_result
-- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1041) — feat(agents): accept coordinator multiagent blocks and normalize to delegations
-- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1040) — docs(contracts): record self-hosted CMA deltas and over-delivery surfaces
-- `2026-11-17` · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness/pull/1039) — docs(contracts): refresh CMA baseline against the 2026-11-17 official docs
-- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1228) — build: bump curve25519-dalek from 4.1.3 to 5.0.0
-- `2026-11-16` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1229) — build: bump the cargo-minor-patch group with 3 updates
+- `2026-11-20` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1248) — fix: use database time for immediate subscription eligibility
+- `2026-11-20` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1246) — feat: opt in to provider-reported streaming billing
+- `2026-11-20` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1245) — fix: accept explicit disabled thinking for reported text billing
+- `2026-11-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1242) — feat: reconcile scoped OpenAI supplier statement versions
+- `2026-11-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1241) — feat: bounded provider usage recovery and closure
+- `2026-11-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1240) — feat: prospectively accepted billing policy versions
+- `2026-11-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1239) — feat: source-linked purchased-credit request corrections
+- `2026-11-19` · [AllureCurtain/oxsum](https://github.com/AllureCurtain/oxsum/pull/1238) — feat: explain durable charges with readable receipts
 <!-- END:AUTO:RECENT -->
 
 ## Projects
